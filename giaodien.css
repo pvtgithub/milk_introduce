@@ -1,0 +1,91 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		#container{
+			height: 700px;
+
+		}
+		#tths{
+			width: 100%;
+			height: 30px;
+			text-align: center;
+		}
+		th{
+			margin: center;
+			text-align: center;
+		}
+		#table{
+			width: 100%;
+
+		}
+		#tt{
+			color: blue;
+			font-size: 25px;
+			font-weight: 700;
+			font-family: calibri;
+		}
+		table{
+			margin: auto;
+			width: 1000px;
+			height: 500px;
+		}
+		/*div menu*/
+		ul{
+	/*bỏ dấu chấm tròn*/
+	list-style-type: none; 
+	}
+	li{
+		/*chiều rộng*/
+		width: 160px;
+		/*chiều cao*/
+		height: 40px;
+		/*cho nội dung vào giữa theo chiều cao*/
+		line-height: 40px;
+
+		/*màu nền*/ 
+		background-color: green;
+		/*đường dưới*/
+		border-right: 1px solid grey;
+		float: left;
+		text-align: center;
+		position: relative;
+	}
+	/*chọn li cuối cùng trong danh sách*/
+	/*nth-child(stt) chọn theo số thứ tự*/
+	li: last-child{
+		border-bottom: none;
+	}
+
+	a{
+		/*quy định màu chữ*/
+		color: white;
+		/*bỏ đường gạch chân*/
+		text-decoration: none;
+		/*hiển thị mở rộng thẻ link*/
+		display: block;
+	}
+	/*trạng thái rê chuột vào thẻ a*/
+	li:hover{
+		background-color: yellow;
+	}
+	/*a nằm trong trong li được hover*/
+	li:hover a{
+		/*chữ trong a màu trắng*/
+		color: white;
+	}
+	#menu{
+		margin-left: 400px;
+		height: 100px;
+	}
+	#tb{
+		clear: both;
+	}
+	#nen{
+		height: 400px;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	tr:nth-child(even){ background-color: yellow;}
+    tr:nth-child(odd){ background-color: white;}

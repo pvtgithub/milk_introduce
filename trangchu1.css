@@ -1,0 +1,107 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#container{
+			height: 800px;
+		}
+		ul{
+		list-style-type: none; 
+		}
+		li{
+		width: 160px;
+		height: 40px;
+		line-height: 40px;
+		background-color: green;
+		border-right: 1px solid grey;
+		float: left;
+		text-align: center;
+		}
+	
+		a{		
+		color: white;		
+		text-decoration: none;	
+		display: block;
+		}
+		li:hover{
+			background-color: yellow;
+		}
+		li:hover a{
+			color: white;
+		}
+		#menu{
+		margin-left: 300px;
+		height: 100px;
+		}
+		#nen{
+			height: 450px;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;		
+		}
+	#fristi{
+		float: left;
+		transition: 1s;
+	}
+	#plus{
+		float: left;
+		transition: 1s;
+	}
+	#cghl{
+		float: left;
+		transition: 1s;
+	}
+	#sure{
+		float: left;
+		transition: 1s;
+	}
+	#grow{
+		float: left;
+		transition: 1s;
+	}
+	#enfagrow{
+		float: left;
+		transition: 1s;
+	}
+	#center table,tr,td {
+		border: 2px solid blue;
+	}
+	#fristi:hover{
+		transform: translate(30px, 10px);
+		background-color: yellow;
+	}
+	#plus:hover{
+		transform: translate(30px, 10px);
+		background-color: yellow;
+	}
+	#cghl:hover{
+		transform: translate(30px, 10px);
+		background-color: yellow;
+	}
+	#sure:hover{
+		transform: translate(30px, 10px);
+		background-color: yellow;
+	}
+	#grow:hover{
+		transform: translate(30px, 10px);
+		background-color: yellow;
+	}
+	#enfagrow:hover{
+		transform: translate(30px, 10px);
+		background-color: yellow;
+	}
+	#logo{
+		text-align: center;
+		height: 110px;
+		line-height: 110px;
+	}
+	#qc{
+		font-size: 50px;
+		color: red;
+		font-weight: 1000;
+		font-family: "Courier New", Courier, monospace;
+	}
+	#center a{
+		color: blue;
+	}
+	
